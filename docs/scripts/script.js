@@ -23,7 +23,7 @@ function createStandardInnerTemplate(content) {
     }
     if (content.type.includes('image')) {
         for (const part of content.images) {
-            finalString += `<a tabindex="-1" onClick="updateModal(\'${part.path}\')" data-bs-toggle="modal" data-bs-target="#myModal"><img class="img-fluid" src="${part.path}" height="240"></a>`
+            finalString += `<a tabindex="-1" onClick="updateModal(\'${part.path}\')" data-bs-toggle="modal" data-bs-target="#myModal"><img class="img-fluid image-thumbnail" src="${part.path}" height="240"></a>`
         }
     }
 

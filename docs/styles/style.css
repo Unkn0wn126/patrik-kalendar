@@ -21,6 +21,14 @@
   scrollbar-width: none;
 }
 
+.image-thumbnail{
+  cursor: zoom-in;
+}
+
+.image-full{
+  cursor: zoom-out;
+}
+
 .calendar-number{
   padding-left: 15%;
   padding-top: 5%;
