@@ -4,18 +4,21 @@
  * @param {string} author 
  */
 function createStandardInnerTemplate(content) {
-    let finalString = ``;
-    if (content.type == 'message') {
+    let finalString = `<div style="padding: 5%">`;
+    if (content.type.includes('message')) {
         for (const part of content.texts) {
-            finalString += `<p>${part}</p>`;
+            let input = part.replaceAll('\n', '<br>');
+            finalString += `<p style="text-align: justify;">${input}</p>`;
         }
-    } else if (content.type == 'video') {
-        finalString += `<video width="240" controls> <source src="${content.videoPath}"> </video>`
-    } else if (content.type == 'image') {
-        finalString += `<img class="img-responsive" src="${content.imagePath}" height="240">`
+    }
+    if (content.type.includes('video')) {
+        finalString += `<video class="img-fluid" controls> <source src="${content.videoPath}"> </video>`
+    }
+    if (content.type.includes('image')) {
+        finalString += `<img class="img-fluid" src="${content.imagePath}" height="240">`
     }
 
-    finalString += `<div style="font-style: oblique;">~${content.author}</div>`;
+    finalString += `<div style="text-align:right; font-weight: bold">${content.author}</div></div>`;
 
     return finalString;
 }
