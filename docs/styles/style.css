@@ -1,10 +1,8 @@
 .calendar_window{
-    border: 1px;
+    border: 2px;
     border-style: solid;
-    border-color:#ffffff63;
+    border-color:#E1E8FC45;
     color: #FFFFFF;
-    font-size: large;
-    font-weight: bold;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -12,41 +10,14 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
-                                  cursor: pointer;
+    cursor: pointer;
 }
 
-a.calendar_window:hover{
-  color: #FFFFFF;
-}
-
-.item-container{
-  background-color: #FFFFFF;
-  color: #0C001C;
-  font-weight: normal;
-  position: absolute; /* Sit on top of the screen */
-  right: 30%;
-  left: 0;
-  padding: 2em;
-}
-
-/* The snackbar - position it at the bottom and in the middle of the screen */
-#snackbar {
-  visibility: hidden; /* Hidden by default. Visible on click */
-  min-width: 40vw; /* Set a default minimum width */
-  max-width: 50vw;
-  text-align: center; /* Centered text */
-  padding: 16px; /* Padding */
-  margin-right: 50vw;
-  z-index: 1; /* Add a z-index if needed */
-}
-
-/* Show the snackbar when clicking on a button (class added with JavaScript) */
-#snackbar.show {
-  visibility: visible; /* Show the snackbar */
-  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
-  However, delay the fade out process for 2.5 seconds */
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+.calendar-number{
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 1.7em;
+  font-weight: 500;
 }
 
 .main-container{
@@ -54,10 +25,11 @@ a.calendar_window:hover{
 }
 
   body{
-    background-color: #0C001C;
     background: url("../img/fakta_vanocni_wip.png") no-repeat center center fixed; 
+    background-color: #0C001C;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Roboto Slab', serif;
   }

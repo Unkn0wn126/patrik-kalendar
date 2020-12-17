@@ -106,6 +106,7 @@ function createWindowNode(title, id) {
     element.id = id;
     titleElement = document.createElement("p");
     titleElement.innerHTML = title;
+    titleElement.classList.add("calendar-number");
 
     element.appendChild(titleElement);
 
