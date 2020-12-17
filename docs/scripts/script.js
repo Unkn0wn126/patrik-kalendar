@@ -37,7 +37,7 @@ function createStandardInnerTemplate(content) {
  * Kinda hacky, but will get the job done
  * @param {string} data 
  */
-function updateModal(data){
+function updateModal(data) {
     let modalImage = document.getElementById('modal-image');
     modalImage.setAttribute('src', data);
 }
@@ -52,8 +52,21 @@ function assignPopover(windowId, itemData) {
     tippy(windowId, {
         appendTo: document.body,
         content: contentString,
-        offset: [0, 0],
-        placement: 'auto',
+        offset: ({ placement, reference, popper }) => {
+            if (placement === 'top-start') {
+              return [50, -1 * (popper.height) - (50)];
+            } else {
+              return [];
+            }},
+        /*getReferenceClientRect: () => ({
+            width: 100,
+            height: 100,
+            left: 100,
+            right: 200,
+            top: 300,
+            bottom: 200,
+          }),*/
+        placement: 'top-start',
         allowHTML: true,
         hideOnClick: 'toggle',
         interactive: true,
@@ -68,19 +81,19 @@ function assignPopover(windowId, itemData) {
             instance.hide();
         },
         popperOptions: {
-            positionFixed: true,
+            anchorEl: 'body',
             strategy: 'fixed',
             modifiers: [
                 {
                     name: 'flip',
                     options: {
-                        fallbackPlacements: ['bottom', 'right'],
+                        fallbackPlacements: ['top-start'],
                     },
                 },
                 {
                     name: 'preventOverflow',
                     options: {
-                        altAxis: true,
+                        altAxis: false,
                         tether: false,
                     },
                 },
