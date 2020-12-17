@@ -97,5 +97,12 @@
         "videos": [],
         "images":[],
         "author": "Xantusia"
+    },
+    {
+        "type": ["message"],
+        "texts": ["Děkujeme, Patriku, za zachování posledních zbytků naděje v lidstvo. Doufáme, že budeš mít chuť a možnost nám ji zachovávat dál."],
+        "videos": [],
+        "images":[],
+        "author": "Heliodor"
     }
 ]
