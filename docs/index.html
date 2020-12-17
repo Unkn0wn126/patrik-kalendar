@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css" />
     <link rel="stylesheet" href="./style.css">
     <title>Adventní kalendář Patrika Kořenáře</title>
 </head>
@@ -83,34 +84,22 @@
                 <p>~Akula</p>">
                     <p>6</p>
                 </a>
-                <a tabindex="0" class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="item-7"
-                    data-bs-html="true" data-bs-toggle="popover" data-bs-content="                            <p>Děkuji za hodiny plné zábavy a pouček nutných pro přežití v nehostinných podmínkách -
-                    například že zákeřné větvičky je nutno rychle postřílet, nebo že ať už se člověk ocitne
-                    v mrazivém světě po apokalypse či na úplně cizí vodní planetě, nejdůležitější je najít
-                    kafe.</p>
-                <p>Děkuji za Fakta zkoumající všemožné záhady, díky kterým konečně s jistotou víme, že nic s
-                    jistotou nevíme.</p>
-                <p>Děkuji za podporu kritického myšlení a předávání důležitých informací, díky kterým můžeme
-                    klidněji spát s vědomím, proč a jak jsou konkrétně věci na houby. Obzvlášť v tomto roce
-                    je to, že tě u nás v práci nesleduju sama, tak uklidňující, že to v podstatě můžu brát
-                    jako zaměstnaneckou výhodu :D</p>
-                <p>Přeji krásné, klidné Vánoce, šťastnější nový rok 2021 a pevné nervy se školou.</p>
-                <p>~Withoutalight</p>">
+                <div class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="item-7">
                     <p>7</p>
-                </a>
-                <a tabindex="0" class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="" data-bs-html="true"
-                    data-bs-toggle="popover"
+                </div>
+                <a tabindex="0" class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="item-8"
+                    data-bs-html="true" data-bs-toggle="popover"
                     data-bs-content="<div class=&quot;container-xs&quot;><img class=&quot;img-responsive&quot; src=&quot;./app_src/img/FaktaBuster.png&quot; height=&quot;240&quot;> <p>~Prembil</p></div>">
                     <p>8</p>
                 </a>
-                <a tabindex="0" class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="" data-bs-html="true"
-                    data-bs-toggle="popover" data-bs-content="<div class=&quot;container-xs&quot;> <video width=&quot;240&quot; controls>
-                    <source src=&quot;./app_src/vid/PatrikVsVetvickaFinal.mp4&quot;>
-                  </video><p>~Pacheasecake</p></div>">
+                <div class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="item-9">
                     <p>9</p>
-                </a>
-                <div class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="">
-                    <p></p>
+                </div>
+                <div class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window">
+                    <div id="item-10">
+
+                        <p></p>
+                    </div>
                 </div>
                 <div class="col text-left p-5 m-5 ratio ratio-1x1 calendar_window" id="">
                     <p></p>
@@ -161,10 +150,147 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    <!-- Development -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
+
     <script type="text/javascript">
+
+    function createStandardInnerTemplate(content, author){
+        let finalString = ``;
+        if(content.type == 'message'){
+            for (const part of content.texts) {
+                finalString += `<p>${part}</p>`;
+            }
+        }else if(content.type == 'video'){
+            finalString += `<video width="240" controls> <source src="${content.videoURL}"> </video>`
+        }else if(content.type == 'image'){
+            finalString += `<img class="img-responsive" src="./app_src/img/FaktaBuster.png" height="240">`
+        }
+
+        finalString += `<div style="font-style: oblique;">~${author}</div>`;
+
+        return finalString;
+    }
+
+    var test = createStandardInnerTemplate({type: 'message', texts: ['Děkuji za hodiny plné zábavy a pouček nutných pro přežití v nehostinných podmínkách - například že zákeřné větvičky je nutno rychle postřílet, nebo že ať už se člověk ocitnev mrazivém světě po apokalypse či na úplně cizí vodní planetě, nejdůležitější je najítkafe.',
+'Děkuji za Fakta zkoumající všemožné záhady, díky kterým konečně s jistotou víme, že nic s jistotou nevíme.',
+'Děkuji za podporu kritického myšlení a předávání důležitých informací, díky kterým můžeme klidněji spát s vědomím, proč a jak jsou konkrétně věci na houby. Obzvlášť v tomto roce je to, že tě u nás v práci nesleduju sama, tak uklidňující, že to v podstatě můžu brát jako zaměstnaneckou výhodu :D',
+'Přeji krásné, klidné Vánoce, šťastnější nový rok 2021 a pevné nervy se školou.']}, 'Withoutalight');
+
+        var otherString = `<p>Děkuji za hodiny plné zábavy a pouček nutných pro přežití v nehostinných podmínkách -
+                    například že zákeřné větvičky je nutno rychle postřílet, nebo že ať už se člověk ocitne
+                    v mrazivém světě po apokalypse či na úplně cizí vodní planetě, nejdůležitější je najít
+                    kafe.</p>
+                <p>Děkuji za Fakta zkoumající všemožné záhady, díky kterým konečně s jistotou víme, že nic s
+                    jistotou nevíme.</p>
+                <p>Děkuji za podporu kritického myšlení a předávání důležitých informací, díky kterým můžeme
+                    klidněji spát s vědomím, proč a jak jsou konkrétně věci na houby. Obzvlášť v tomto roce
+                    je to, že tě u nás v práci nesleduju sama, tak uklidňující, že to v podstatě můžu brát
+                    jako zaměstnaneckou výhodu :D</p>
+                <p>Přeji krásné, klidné Vánoce, šťastnější nový rok 2021 a pevné nervy se školou.</p>
+                <p>~Withoutalight</p>`
+
+                var test2 = createStandardInnerTemplate({type: 'video', videoURL: './app_src/vid/PatrikVsVetvickaFinal.mp4'}, 'Pacheasecake' )
+
+        var stringl = "<video width=\"240\" controls> <source src=\"./app_src/vid/PatrikVsVetvickaFinal.mp4\"> </video><p>~Pacheasecake</p>"
+
+        tippy('#item-7', {
+            appendTo: document.body,
+            content: test,
+            offset: [0, 0],
+            placement: 'bottom',
+            allowHTML: true,
+            hideOnClick: 'toggle',
+            interactive: true,
+            trigger: 'click',
+            maxWidth: 350,
+            theme: 'light',
+            arrow: false,
+            inlinePositioning: true,
+            onClickOutside(instance, event) {
+                instance.hide();
+            },
+            popperOptions: {
+                positionFixed: true,
+                strategy: 'fixed',
+                modifiers: [
+                    {
+                        name: 'flip',
+                        options: {
+                            fallbackPlacements: ['bottom', 'right'],
+                        },
+                    },
+                    {
+                        name: 'preventOverflow',
+                        options: {
+                            altAxis: true,
+                            tether: false,
+                        },
+                    },
+                ],
+            },
+        });
+
+        tippy('#item-9', {
+            appendTo: document.body,
+            content: test2,
+            offset: [0, 0],
+            placement: 'bottom',
+            allowHTML: true,
+            hideOnClick: 'toggle',
+            interactive: true,
+            trigger: 'click',
+            maxWidth: 350,
+            theme: 'light',
+            arrow: false,
+            inlinePositioning: true,
+            onClickOutside(instance, event) {
+                instance.hide();
+            },
+            popperOptions: {
+                positionFixed: true,
+                strategy: 'fixed',
+                modifiers: [
+                    {
+                        name: 'flip',
+                        options: {
+                            fallbackPlacements: ['bottom', 'right'],
+                        },
+                    },
+                    {
+                        name: 'preventOverflow',
+                        options: {
+                            altAxis: true,
+                            tether: false,
+                        },
+                    },
+                ],
+            },
+        });
+
+        //const instance = tippy('#item-10');
+
+        /*function doStuff(){
+            console.log(instance);
+        }*/
+
+
+        /*var pop = document.getElementById("#popup");
+
+        pop.hidden = true;
+
+        var ref = document.getElementById("#item-10");
+        function doStuff() {
+            pop.hidden = false;
+            var popper = new Popper(ref, pop, {
+                placement: 'top',
+            });
+        }*/
 
 
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
