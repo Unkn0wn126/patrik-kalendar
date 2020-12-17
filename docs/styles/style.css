@@ -11,6 +11,7 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .item-container{
@@ -20,7 +21,7 @@
 }
 
 .calendar-number{
-  padding-left: 10%;
+  padding-left: 15%;
   padding-top: 5%;
   font-size: 1.7em;
   font-weight: 500;
