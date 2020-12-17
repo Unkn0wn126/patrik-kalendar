@@ -12,13 +12,22 @@ function createStandardInnerTemplate(content) {
         }
     }
     if (content.type.includes('video')) {
-        finalString += `<video class="img-fluid" controls> <source src="${content.videoPath}"> </video>`
+        for (const part of content.videos) {
+            if(part.type == 'local'){
+                finalString += `<video class="img-fluid" controls> <source src="${part.path}"> </video>`
+            }
+            else if(part.type == 'url'){
+                finalString += ` <iframe class="img-fluid" src="${part.path}" title="description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> `
+            }
+        }
     }
     if (content.type.includes('image')) {
-        finalString += `<img class="img-fluid" src="${content.imagePath}" height="240">`
+        for (const part of content.images) {
+            finalString += `<img class="img-fluid" src="${part.path}" height="240">`
+        }
     }
 
-    finalString += `<div style="text-align:right; font-weight: bold">${content.author}</div></div>`;
+    finalString += `<div style="text-align:right; font-weight: bold; padding: 3%">${content.author}</div></div>`;
 
     return finalString;
 }

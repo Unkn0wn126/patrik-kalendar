@@ -4,8 +4,8 @@
         "texts": [
             "Patriku, koukáme s kamarádem Duškem na tvoje videa, a moc se nám líbí. Pokračuj v tom co děláš, určitě brzy dostaneš víc mediálního prostoru jako my."
         ],
-        "videoPath": "",
-        "imagePath": "",
+        "videos": [],
+        "images":[],
         "author": "prof. Jan Rak"
     },
     {
@@ -13,15 +13,15 @@
         "texts": [
             "Neboj, Patriku, už jsme si vizualizovali všechna Fakta a podařila se ti!"
         ],
-        "videoPath": "",
-        "imagePath": "",
+        "videos": [],
+        "images":[],
         "author": "Veve"
     },
     {
         "type": ["image"],
         "texts": [],
-        "videoPath": "",
-        "imagePath": "./app_src/img/korenka_low.jpg",
+        "videos": [],
+        "images":[{"path": "./app_src/img/korenka_low.jpg"}],
         "author": "Johča"
     },
     {
@@ -29,12 +29,12 @@
         "texts": [
             "Veselé #VánoceBudou a šťastný nový rok, ať studium nevypadá jako #JáVámJenomLžu, větší část příštího roku nebude #Zploštikřivku a Ilumináti s tebou!"
         ],
-        "videoPath": "",
-        "imagePath": "",
+        "videos": [],
+        "images":[],
         "author": "Orcyf"
     },
     {
-        "type": ["message"],
+        "type": ["message", "video"],
         "texts": [
             "Oslavná píseň Patrika Kořenáře\n(na melodii Písně pro Děda Vševěda)",
             "Konspiracím nevěřit,\nzdroji všechno podpořit,\nnejen prací býti živ\na umět se uklidnit.\nTo Patrik Kořenář moc dobře ví,\nten zdroje má, ten fakta zná.",
@@ -48,8 +48,8 @@
             "Konspiracím nevěřit,\nzdroji všechno podpořit,\nnejen prací býti živ\na umět se uklidnit.\nTo Patrik Kořenář moc dobře ví,\nten zdroje má, ten fakta zná.",
             "Tuto oslavnou píseň ti tímto darujeme k Vánocům a přejeme pevné nervy v tvojí nelehké práci a rádi si ji s tebou na DC zazpíváme."
         ],
-        "videoPath": "",
-        "imagePath": "",
+        "videos": [],
+        "images":[],
         "author": "IzabelaRosak"
     },
     {
@@ -57,8 +57,8 @@
         "texts": [
             "Skutečně oceňuji tvůj nekončící zápal a tvé bezmezné odhodlání bojovat proti dezinformacím, ačkoliv se to často zdá beznadějné. Nechť jsou tvé čakry srovnány, tvá alobalová čepička ať odhání všechny negativní vlnky, a posílám čokoládu. Přeji veselé Vánoce, právoplatný pane fakt. A děkuji za všechno, Patriku."
         ],
-        "videoPath": "",
-        "imagePath": "",
+        "videos": [],
+        "images":[],
         "author": "Akula"
     },
     {
@@ -69,22 +69,22 @@
             "Děkuji za podporu kritického myšlení a předávání důležitých informací, díky kterým můžeme klidněji spát s vědomím, proč a jak jsou konkrétně věci na houby. Obzvlášť v tomto roce je to, že tě u nás v práci nesleduju sama, tak uklidňující, že to v podstatě můžu brát jako zaměstnaneckou výhodu :D",
             "Přeji krásné, klidné Vánoce, šťastnější nový rok 2021 a pevné nervy se školou."
         ],
-        "videoPath": "",
-        "imagePath": "",
+        "videos": [],
+        "images":[],
         "author": "Withoutalight"
     },
     {
         "type": ["message", "image"],
         "texts": ["Dlouholetý fanda Zvědátorů děkuje za každý díl."],
-        "videoPath": "",
-        "imagePath": "./app_src/img/FaktaBuster.png",
+        "videos": [],
+        "images":[{"path": "./app_src/img/FaktaBuster.png"}],
         "author": "Prembil"
     },
     {
         "type": ["video"],
         "texts": ["Dlouholetý fanda Zvědátorů děkuje za každý díl."],
-        "videoPath": "./app_src/vid/PatrikVsVetvickaFinal.mp4",
-        "imagePath": "",
+        "videos": [{"type": "local", "path": "./app_src/vid/PatrikVsVetvickaFinal.mp4"}],
+        "images":[],
         "author": "Pacheasecake"
     },
     {
@@ -94,8 +94,8 @@
             "Ale ze všeho nejvíce Ti chci poděkovat za veškerou snahu a energii, které jsi věnoval objasňování fakt okolo současné pandemie. Veliký respekt za to, že sis vzal na triko jít proti tak velkému proudu dezinformací, obzvláště když proti faktům stála snad veškerá lidská hloupost, kterou tento (a další) národy oplývají. :D",
             "Zbývá už jen říct, \"You're the only b*tch I respect around here\", krásné vánoce a šťastný nový rok! (May 2021 have mercy with us...)"
         ],
-        "videoPath": "",
-        "imagePath": "",
+        "videos": [],
+        "images":[],
         "author": "Xantusia"
     }
 ]
