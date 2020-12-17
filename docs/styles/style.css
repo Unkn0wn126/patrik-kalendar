@@ -18,6 +18,7 @@
   padding: 5%;
   max-height: 80vh;
   overflow: auto;
+  scrollbar-width: none;
 }
 
 .calendar-number{
@@ -34,9 +35,19 @@
   body{
     background: url("../img/fakta_vanocni_final.png") no-repeat center center fixed; 
     background-color: #0C001C;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: fill;
+    -moz-background-size: fill;
+    -o-background-size: fill;
+    background-size: fill;
     font-family: 'Roboto Slab', serif;
   }
+
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+}

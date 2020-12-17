@@ -62,6 +62,7 @@ function assignPopover(windowId, itemData) {
         theme: 'light',
         arrow: false,
         role: 'popover',
+        zIndex: 1040,
         inlinePositioning: true,
         onClickOutside(instance, event) {
             instance.hide();
