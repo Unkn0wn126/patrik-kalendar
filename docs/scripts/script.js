@@ -8,7 +8,7 @@ function createStandardInnerTemplate(content) {
     if (content.type.includes('message')) {
         for (const part of content.texts) {
             let input = part.replaceAll('\n', '<br>');
-            finalString += `<p style="text-align: justify;">${input}</p>`;
+            finalString += `<p style="text-align: left;">${input}</p>`;
         }
     }
     if (content.type.includes('video')) {
