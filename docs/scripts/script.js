@@ -22,12 +22,8 @@ function createStandardInnerTemplate(content) {
         }
     }
     if (content.type.includes('image')) {
-        let imgCount = 0;
         for (const part of content.images) {
-            imgCount++;
-            let currentId = `modal-img-${imgCount}`;
-            document.body.appendChild(createModal(currentId, part.path));
-            finalString += `<a tabindex="-1" data-bs-toggle="modal" data-bs-target="#${currentId}"><img class="img-fluid" src="${part.path}" height="240"></a>`
+            finalString += `<a tabindex="-1" onClick="updateModal(\'${part.path}\')" data-bs-toggle="modal" data-bs-target="#myModal"><img class="img-fluid" src="${part.path}" height="240"></a>`
         }
     }
 
@@ -36,31 +32,14 @@ function createStandardInnerTemplate(content) {
     return finalString;
 }
 
-function createModal(id, imgPath){
-    let modal = document.createElement('div');
-    modal.setAttribute('id', id);
-    modal.setAttribute('tabindex', '-1');
-    modal.setAttribute('aria-hidden', 'true');
-    modal.classList.add('modal', 'fade');
-    modal.style.zIndex = '10000000';
-
-    let modalDialog = document.createElement('div');
-    modalDialog.classList.add('modal-dialog', 'modal-xl');
-
-    let modalBody = document.createElement('div');
-    modalBody.classList.add('modal-body');
-
-    let image = document.createElement('img');
-    image.classList.add('img-fluid');
-    image.setAttribute('src', imgPath);
-
-    modalBody.appendChild(image);
-
-    modalDialog.appendChild(modalBody);
-
-    modal.appendChild(modalDialog);
-
-    return modal;
+/**
+ * Manually updates the image tag inside of a modal
+ * Kinda hacky, but will get the job done
+ * @param {string} data 
+ */
+function updateModal(data){
+    let modalImage = document.getElementById('modal-image');
+    modalImage.setAttribute('src', data);
 }
 
 /**

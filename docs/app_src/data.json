@@ -21,7 +21,7 @@
         "type": ["image"],
         "texts": [],
         "videos": [],
-        "images":[{"path": "./app_src/img/korenka_low.jpg"}],
+        "images":[{"path": "./app_src/img/vanoce_korenka.jpg"}],
         "author": "Johča"
     },
     {
@@ -34,7 +34,7 @@
         "author": "Orcyf"
     },
     {
-        "type": ["message", "video"],
+        "type": ["message"],
         "texts": [
             "Oslavná píseň Patrika Kořenáře\n(na melodii Písně pro Děda Vševěda)",
             "Konspiracím nevěřit,\nzdroji všechno podpořit,\nnejen prací býti živ\na umět se uklidnit.\nTo Patrik Kořenář moc dobře ví,\nten zdroje má, ten fakta zná.",
