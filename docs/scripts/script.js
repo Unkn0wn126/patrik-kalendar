@@ -13,23 +13,54 @@ function createStandardInnerTemplate(content) {
     }
     if (content.type.includes('video')) {
         for (const part of content.videos) {
-            if(part.type == 'local'){
+            if (part.type == 'local') {
                 finalString += `<video class="img-fluid" controls> <source src="${part.path}"> </video>`
             }
-            else if(part.type == 'url'){
+            else if (part.type == 'url') {
                 finalString += ` <iframe class="img-fluid" src="${part.path}" title="description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> `
             }
         }
     }
     if (content.type.includes('image')) {
+        let imgCount = 0;
         for (const part of content.images) {
-            finalString += `<img class="img-fluid" src="${part.path}" height="240">`
+            imgCount++;
+            let currentId = `modal-img-${imgCount}`;
+            document.body.appendChild(createModal(currentId, part.path));
+            finalString += `<a tabindex="-1" data-bs-toggle="modal" data-bs-target="#${currentId}"><img class="img-fluid" src="${part.path}" height="240"></a>`
         }
     }
 
     finalString += `<div style="text-align:right; font-weight: bold; padding: 3%">${content.author}</div></div>`;
 
     return finalString;
+}
+
+function createModal(id, imgPath){
+    let modal = document.createElement('div');
+    modal.setAttribute('id', id);
+    modal.setAttribute('tabindex', '-1');
+    modal.setAttribute('aria-hidden', 'true');
+    modal.classList.add('modal', 'fade');
+    modal.style.zIndex = '10000000';
+
+    let modalDialog = document.createElement('div');
+    modalDialog.classList.add('modal-dialog', 'modal-xl');
+
+    let modalBody = document.createElement('div');
+    modalBody.classList.add('modal-body');
+
+    let image = document.createElement('img');
+    image.classList.add('img-fluid');
+    image.setAttribute('src', imgPath);
+
+    modalBody.appendChild(image);
+
+    modalDialog.appendChild(modalBody);
+
+    modal.appendChild(modalDialog);
+
+    return modal;
 }
 
 /**
