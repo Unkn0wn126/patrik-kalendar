@@ -4,7 +4,7 @@
  * @param {string} author 
  */
 function createStandardInnerTemplate(content) {
-    let finalString = `<div style="padding: 5%">`;
+    let finalString = `<div class="item-container">`;
     if (content.type.includes('message')) {
         for (const part of content.texts) {
             let input = part.replaceAll('\n', '<br>');
@@ -34,7 +34,7 @@ function assignPopover(windowId, itemData) {
         appendTo: document.body,
         content: contentString,
         offset: [0, 0],
-        placement: 'bottom',
+        placement: 'auto',
         allowHTML: true,
         hideOnClick: 'toggle',
         interactive: true,
@@ -42,6 +42,7 @@ function assignPopover(windowId, itemData) {
         maxWidth: 350,
         theme: 'light',
         arrow: false,
+        role: 'popover',
         inlinePositioning: true,
         onClickOutside(instance, event) {
             instance.hide();

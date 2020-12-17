@@ -13,6 +13,12 @@
     cursor: pointer;
 }
 
+.item-container{
+  padding: 5%;
+  max-height: 80vh;
+  overflow: auto;
+}
+
 .calendar-number{
   padding-left: 10%;
   padding-top: 5%;
@@ -25,7 +31,7 @@
 }
 
   body{
-    background: url("../img/fakta_vanocni_wip.png") no-repeat center center fixed; 
+    background: url("../img/fakta_vanocni_final.png") no-repeat center center fixed; 
     background-color: #0C001C;
     -webkit-background-size: cover;
     -moz-background-size: cover;
