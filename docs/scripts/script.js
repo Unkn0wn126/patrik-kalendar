@@ -108,8 +108,9 @@ function assignPopover(windowId, itemData) {
                 {
                     name: 'preventOverflow',
                     options: {
+                        mainAxis: true,
                         altAxis: false,
-                        tether: false,
+                        tether: true,
                     },
                 },
             ],

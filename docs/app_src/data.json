@@ -118,5 +118,12 @@
         "videos": [],
         "images":[{"path": "./app_src/img/praniPatrik.jpg"}],
         "author": "Michal"
+    },
+    {
+        "type": ["message","image"],
+        "texts": ["Patricius Radixus, který žil na přelomu letopočtu, byl zakladatel klanu bojovníků za fakta a ozdrojované informace. Jeho heslem bylo poteris factis. Potomci tohoto legendárního bojovníka za fakta dodnes pokračují v jeho odkazu a válčí z dezinformacemi. Zatím nejdále se dostal nejmladší z rodu Patrik Kořenář, který se svým pořadem Fakta vítězí úspěšně zasévá pochybnosti a paniku do řad nepřátel. Jeho předek je na něj jistě hrdý a bude nad ním držet ochrannou ruku po dlouhá léta."],
+        "videos": [],
+        "images":[{"path": "./app_src/img/Patricius_Radixus_screenshot.png"}],
+        "author": "KleaCI5"
     }
 ]
