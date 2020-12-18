@@ -125,5 +125,12 @@
         "videos": [],
         "images":[{"path": "./app_src/img/Patricius_Radixus_screenshot.png"}],
         "author": "KleaCI5"
+    },
+    {
+        "type": ["image"],
+        "texts": [],
+        "videos": [],
+        "images":[{"path": "./app_src/img/hotovo.png"}],
+        "author": "Withoutalight"
     }
 ]
