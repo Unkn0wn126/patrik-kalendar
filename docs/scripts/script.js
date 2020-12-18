@@ -4,7 +4,7 @@
  * @param {string} author 
  */
 function createStandardInnerTemplate(content) {
-    let finalString = `<div class="item-container">`;
+    let finalString = `<div class="item-container"><div class="item-container-inner">`;
     if (content.type.includes('message')) {
         for (const part of content.texts) {
             let input = part.replaceAll('\n', '<br>');
@@ -27,7 +27,7 @@ function createStandardInnerTemplate(content) {
         }
     }
 
-    finalString += `<div style="text-align:right; font-weight: bold; padding: 3%">${content.author}</div></div>`;
+    finalString += `<div style="text-align:right; font-weight: bold; padding: 3%">${content.author}</div></div></div>`;
 
     return finalString;
 }
