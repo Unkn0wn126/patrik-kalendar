@@ -132,5 +132,12 @@
         "videos": [],
         "images":[{"path": "./app_src/img/hotovo_smaller.png"}],
         "author": "Withoutalight"
+    },
+    {
+        "type": ["image"],
+        "texts": [],
+        "videos": [],
+        "images":[{"path": "./app_src/img/01-vidle.jpg"}, {"path": "./app_src/img/02-vidle.jpg"}],
+        "author": "TondaMikaSan"
     }
 ]
