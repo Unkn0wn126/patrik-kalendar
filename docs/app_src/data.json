@@ -130,7 +130,7 @@
         "type": ["image"],
         "texts": [],
         "videos": [],
-        "images":[{"path": "./app_src/img/hotovo.png"}],
+        "images":[{"path": "./app_src/img/hotovo_smaller.png"}],
         "author": "Withoutalight"
     }
 ]
