@@ -60,7 +60,7 @@ function assignPopover(windowId, itemData) {
         content: contentString,
         offset: ({ placement, reference, popper }) => {
             if (placement === 'top-start') {
-                return [50, -1 * (popper.height) - (50)];
+                return [50, - 70];
             }
             else if (placement === 'top-end') {
                 return [-30, -1 * (popper.height) - (50)];
