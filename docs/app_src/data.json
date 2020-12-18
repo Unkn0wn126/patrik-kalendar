@@ -118,12 +118,5 @@
         "videos": [],
         "images":[{"path": "./app_src/img/praniPatrik.jpg"}],
         "author": "Michal"
-    },
-    {
-        "type": ["message"],
-        "texts": ["Pane Patriku Kořenáři děkuji za vaši prezentaci názorů na svět a přeji Vám krásné prožití šťastných a veselých svátků vánočních s pozdravem Váš fanoušek \n🇨🇿🇨🇿🌈🇨🇿🇨🇿🌈🇨🇿🇨🇿🌈🇨🇿🇨🇿"],
-        "videos": [],
-        "images":[],
-        "author": "David Dovrtěl"
     }
 ]
