@@ -104,5 +104,19 @@
         "videos": [],
         "images":[],
         "author": "Heliodor"
+    },
+    {
+        "type": ["image"],
+        "texts": [],
+        "videos": [],
+        "images":[{"path": "./app_src/img/elay.png"}],
+        "author": "Elay"
+    },
+    {
+        "type": ["image"],
+        "texts": [],
+        "videos": [],
+        "images":[{"path": "./app_src/img/praniPatrik.jpg"}],
+        "author": "Michal"
     }
 ]
