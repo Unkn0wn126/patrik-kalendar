@@ -56,6 +56,12 @@ function assignPopover(windowId, itemData) {
             if (placement === 'top-start') {
                 return [50, -1 * (popper.height) - (50)];
             }
+            else if (placement === 'top-end') {
+                return [-30, -1 * (popper.height) - (50)];
+            }
+            else if (placement === 'bottom-end') {
+                return [-30, -70];
+            }
             else if (placement === 'bottom-start') {
                 return [50, -70];
             }
@@ -90,7 +96,7 @@ function assignPopover(windowId, itemData) {
                 {
                     name: 'flip',
                     options: {
-                        fallbackPlacements: ['top-start', 'right-start', 'left-start'],
+                        fallbackPlacements: ['bottom-end', 'top-start', 'top-end', 'right-start', 'left-start'],
                     },
                 },
                 {
