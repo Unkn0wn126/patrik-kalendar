@@ -32,6 +32,12 @@ function createStandardInnerTemplate(content) {
     return finalString;
 }
 
+function hideModal(){
+    let myModalEl = document.getElementById('myModal')
+    let modal = bootstrap.Modal.getInstance(myModalEl) // Returns a Bootstrap modal instance
+    modal.hide();
+}
+
 /**
  * Manually updates the image tag inside of a modal
  * Kinda hacky, but will get the job done
