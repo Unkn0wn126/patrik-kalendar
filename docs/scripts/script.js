@@ -32,7 +32,7 @@ function createStandardInnerTemplate(content) {
     return finalString;
 }
 
-function hideModal(){
+function hideModal() {
     let myModalEl = document.getElementById('myModal')
     let modal = bootstrap.Modal.getInstance(myModalEl) // Returns a Bootstrap modal instance
     modal.hide();

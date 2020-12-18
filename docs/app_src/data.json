@@ -1,40 +1,54 @@
 [
     {
-        "type": ["message"],
+        "type": [
+            "message"
+        ],
         "texts": [
             "Patriku, koukáme s kamarádem Duškem na tvoje videa, a moc se nám líbí. Pokračuj v tom co děláš, určitě brzy dostaneš víc mediálního prostoru jako my."
         ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "prof. Jan Rak"
     },
     {
-        "type": ["message"],
+        "type": [
+            "message"
+        ],
         "texts": [
             "Neboj, Patriku, už jsme si vizualizovali všechna Fakta a podařila se ti!"
         ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "Veve"
     },
     {
-        "type": ["image"],
+        "type": [
+            "image"
+        ],
         "texts": [],
         "videos": [],
-        "images":[{"path": "./app_src/img/vanoce_korenka.jpg"}],
+        "images": [
+            {
+                "path": "./app_src/img/vanoce_korenka.jpg"
+            }
+        ],
         "author": "Johča"
     },
     {
-        "type": ["message"],
+        "type": [
+            "message"
+        ],
         "texts": [
             "Veselé #VánoceBudou a šťastný nový rok, ať studium nevypadá jako #JáVámJenomLžu, větší část příštího roku nebude #Zploštikřivku a Ilumináti s tebou!"
         ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "Orcyf"
     },
     {
-        "type": ["message"],
+        "type": [
+            "message"
+        ],
         "texts": [
             "Oslavná píseň Patrika Kořenáře\n(na melodii Písně pro Děda Vševěda)",
             "Konspiracím nevěřit,\nzdroji všechno podpořit,\nnejen prací býti živ\na umět se uklidnit.\nTo Patrik Kořenář moc dobře ví,\nten zdroje má, ten fakta zná.",
@@ -49,20 +63,24 @@
             "Tuto oslavnou píseň ti tímto darujeme k Vánocům a přejeme pevné nervy v tvojí nelehké práci a rádi si ji s tebou na DC zazpíváme."
         ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "IzabelaRosak"
     },
     {
-        "type": ["message"],
+        "type": [
+            "message"
+        ],
         "texts": [
             "Skutečně oceňuji tvůj nekončící zápal a tvé bezmezné odhodlání bojovat proti dezinformacím, ačkoliv se to často zdá beznadějné. Nechť jsou tvé čakry srovnány, tvá alobalová čepička ať odhání všechny negativní vlnky, a posílám čokoládu. Přeji veselé Vánoce, právoplatný pane fakt. A děkuji za všechno, Patriku."
         ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "Akula"
     },
     {
-        "type": ["message"],
+        "type": [
+            "message"
+        ],
         "texts": [
             "Děkuji za hodiny plné zábavy a pouček nutných pro přežití v nehostinných podmínkách - například že zákeřné větvičky je nutno rychle postřílet, nebo že ať už se člověk ocitne v mrazivém světě po apokalypse či na úplně cizí vodní planetě, nejdůležitější je najít kafe.",
             "Děkuji za Fakta zkoumající všemožné záhady, díky kterým konečně s jistotou víme, že nic s jistotou nevíme.",
@@ -70,74 +88,134 @@
             "Přeji krásné, klidné Vánoce, šťastnější nový rok 2021 a pevné nervy se školou."
         ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "Withoutalight"
     },
     {
-        "type": ["message", "image"],
-        "texts": ["Dlouholetý fanda Zvědátorů děkuje za každý díl."],
+        "type": [
+            "message",
+            "image"
+        ],
+        "texts": [
+            "Dlouholetý fanda Zvědátorů děkuje za každý díl."
+        ],
         "videos": [],
-        "images":[{"path": "./app_src/img/FaktaBuster.png"}],
+        "images": [
+            {
+                "path": "./app_src/img/FaktaBuster.png"
+            }
+        ],
         "author": "Prembil"
     },
     {
-        "type": ["video"],
-        "texts": ["Dlouholetý fanda Zvědátorů děkuje za každý díl."],
-        "videos": [{"type": "local", "path": "./app_src/vid/PatrikVsVetvickaFinal.mp4"}],
-        "images":[],
+        "type": [
+            "video"
+        ],
+        "texts": [
+            "Dlouholetý fanda Zvědátorů děkuje za každý díl."
+        ],
+        "videos": [
+            {
+                "type": "local",
+                "path": "./app_src/vid/PatrikVsVetvickaFinal.mp4"
+            }
+        ],
+        "images": [],
         "author": "Pacheasecake"
     },
     {
-        "type": ["message"],
+        "type": [
+            "message"
+        ],
         "texts": [
             "Milý Patriku, tímto Ti přeji šťastné a veselé Vánoce jménem všech elfů na Tvém Discord serveru. Obligatory díky Ti za další rok, který jsem mohla strávit se Zvědátory (veliké díky za dělání společnosti hlavně při žehlení). :P",
             "Ale ze všeho nejvíce Ti chci poděkovat za veškerou snahu a energii, které jsi věnoval objasňování fakt okolo současné pandemie. Veliký respekt za to, že sis vzal na triko jít proti tak velkému proudu dezinformací, obzvláště když proti faktům stála snad veškerá lidská hloupost, kterou tento (a další) národy oplývají. :D",
             "Zbývá už jen říct, \"You're the only b*tch I respect around here\", krásné vánoce a šťastný nový rok! (May 2021 have mercy with us...)"
         ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "Xantusia"
     },
     {
-        "type": ["message"],
-        "texts": ["Děkujeme, Patriku, za zachování posledních zbytků naděje v lidstvo. Doufáme, že budeš mít chuť a možnost nám ji zachovávat dál."],
+        "type": [
+            "message"
+        ],
+        "texts": [
+            "Děkujeme, Patriku, za zachování posledních zbytků naděje v lidstvo. Doufáme, že budeš mít chuť a možnost nám ji zachovávat dál."
+        ],
         "videos": [],
-        "images":[],
+        "images": [],
         "author": "Heliodor"
     },
     {
-        "type": ["image"],
+        "type": [
+            "image"
+        ],
         "texts": [],
         "videos": [],
-        "images":[{"path": "./app_src/img/Patrik_kalendar.png"}],
+        "images": [
+            {
+                "path": "./app_src/img/Patrik_kalendar.png"
+            }
+        ],
         "author": "Elay"
     },
     {
-        "type": ["image"],
+        "type": [
+            "image"
+        ],
         "texts": [],
         "videos": [],
-        "images":[{"path": "./app_src/img/praniPatrik.jpg"}],
+        "images": [
+            {
+                "path": "./app_src/img/praniPatrik.jpg"
+            }
+        ],
         "author": "Michal"
     },
     {
-        "type": ["message","image"],
-        "texts": ["Patricius Radixus, který žil na přelomu letopočtu, byl zakladatel klanu bojovníků za fakta a ozdrojované informace. Jeho heslem bylo poteris factis. Potomci tohoto legendárního bojovníka za fakta dodnes pokračují v jeho odkazu a válčí z dezinformacemi. Zatím nejdále se dostal nejmladší z rodu Patrik Kořenář, který se svým pořadem Fakta vítězí úspěšně zasévá pochybnosti a paniku do řad nepřátel. Jeho předek je na něj jistě hrdý a bude nad ním držet ochrannou ruku po dlouhá léta."],
+        "type": [
+            "message",
+            "image"
+        ],
+        "texts": [
+            "Patricius Radixus, který žil na přelomu letopočtu, byl zakladatel klanu bojovníků za fakta a ozdrojované informace. Jeho heslem bylo poteris factis. Potomci tohoto legendárního bojovníka za fakta dodnes pokračují v jeho odkazu a válčí z dezinformacemi. Zatím nejdále se dostal nejmladší z rodu Patrik Kořenář, který se svým pořadem Fakta vítězí úspěšně zasévá pochybnosti a paniku do řad nepřátel. Jeho předek je na něj jistě hrdý a bude nad ním držet ochrannou ruku po dlouhá léta."
+        ],
         "videos": [],
-        "images":[{"path": "./app_src/img/Patricius_Radixus_screenshot.png"}],
+        "images": [
+            {
+                "path": "./app_src/img/Patricius_Radixus_screenshot.png"
+            }
+        ],
         "author": "KleaCI5"
     },
     {
-        "type": ["image"],
+        "type": [
+            "image"
+        ],
         "texts": [],
         "videos": [],
-        "images":[{"path": "./app_src/img/hotovo_smaller.png"}],
+        "images": [
+            {
+                "path": "./app_src/img/hotovo_smaller.png"
+            }
+        ],
         "author": "Withoutalight"
     },
     {
-        "type": ["image"],
+        "type": [
+            "image"
+        ],
         "texts": [],
         "videos": [],
-        "images":[{"path": "./app_src/img/01-vidle.jpg"}, {"path": "./app_src/img/02-vidle.jpg"}],
+        "images": [
+            {
+                "path": "./app_src/img/01-vidle.jpg"
+            },
+            {
+                "path": "./app_src/img/02-vidle.jpg"
+            }
+        ],
         "author": "TondaMikaSan"
     }
 ]
