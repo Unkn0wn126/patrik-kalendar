@@ -54,19 +54,22 @@ function assignPopover(windowId, itemData) {
         content: contentString,
         offset: ({ placement, reference, popper }) => {
             if (placement === 'top-start') {
-              return [50, -1 * (popper.height) - (50)];
-            } else {
-              return [];
-            }},
-        /*getReferenceClientRect: () => ({
-            width: 100,
-            height: 100,
-            left: 100,
-            right: 200,
-            top: 300,
-            bottom: 200,
-          }),*/
-        placement: 'top-start',
+                return [50, -1 * (popper.height) - (50)];
+            }
+            else if (placement === 'bottom-start') {
+                return [50, -70];
+            }
+            else if (placement === 'left-start') {
+                return [50, -70];
+            }
+            else if (placement === 'right-start') {
+                return [50, -70];
+            }
+            else {
+                return [];
+            }
+        },
+        placement: 'bottom-start',
         allowHTML: true,
         hideOnClick: 'toggle',
         interactive: true,
@@ -87,7 +90,7 @@ function assignPopover(windowId, itemData) {
                 {
                     name: 'flip',
                     options: {
-                        fallbackPlacements: ['top-start'],
+                        fallbackPlacements: ['top-start', 'right-start', 'left-start'],
                     },
                 },
                 {
@@ -102,6 +105,10 @@ function assignPopover(windowId, itemData) {
     });
 }
 
+
+/**
+ * The magic starts here!
+ */
 fetch("./app_src/data.json")
     .then(response => response.json())
     .then(json => {
