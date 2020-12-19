@@ -45,7 +45,9 @@ function hideModal() {
  */
 function updateModal(data) {
     let modalImage = document.getElementById('modal-image');
+    let modalLink = document.getElementById('modal-image-link')
     modalImage.setAttribute('src', data);
+    modalLink.href = data;
 }
 
 /**

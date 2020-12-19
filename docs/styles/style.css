@@ -54,6 +54,42 @@
   height: auto;
 }
 
+
+a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, a#modal-image-link:hover{
+  color: #e9e9e9;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  padding: 20px;
+}
+
+/** 
+ * iPad with portrait orientation.
+ */
+ /*@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  .image-full {
+    height: 1024px;
+  }
+}*/
+
+/** 
+ * iPad with landscape orientation.
+ */
+/*@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  .image-full {
+    height: 768px;
+  }
+}*/
+
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+/*@media screen and (device-aspect-ratio: 40/71) {
+  .image-full {
+    height: 500px;
+  }
+}*/
+
 .calendar-number{
   padding-left: 15%;
   padding-top: 5%;
