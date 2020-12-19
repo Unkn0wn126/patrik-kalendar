@@ -35,6 +35,12 @@
   border-radius: 0 0 5px 5px;
 }
 
+.modal-content{
+  align-items: flex-start !important;
+  justify-content: center !important;
+  align-content: center !important;
+}
+
 .tippy-box{
   border-radius: 5px;
 }
@@ -48,6 +54,7 @@
   cursor: zoom-out;
   max-width: 60% !important;
   height: auto !important;
+  align-self: center;
 }
 
 
@@ -56,6 +63,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
   padding: 20px;
+  align-self: center;
 }
 
 /** 
