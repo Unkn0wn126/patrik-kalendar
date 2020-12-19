@@ -115,6 +115,22 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
     font-family: 'Roboto Slab', serif;
   }
 
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("../img/fakta_vanocni_final2.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   html {
     overflow: scroll;
     overflow-x: hidden;
