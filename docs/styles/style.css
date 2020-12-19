@@ -105,7 +105,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
     overflow: scroll;
     overflow-x: hidden;
     scrollbar-width: none;
-    height: -webkit-fill-available;
+    -webkit-text-size-adjust: none;
 }
 
 ::-webkit-scrollbar {
