@@ -46,7 +46,8 @@
 
 .image-full{
   cursor: zoom-out;
-  max-width: 60%;
+  max-width: 60% !important;
+  height: auto !important;
 }
 
 
@@ -62,7 +63,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
  */
  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
   .image-full {
-    max-width: 80%;
+    max-width: 80% !important;
     height: auto !important;
   }
 }
@@ -72,7 +73,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
  */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
   .image-full {
-    max-width: 80%;
+    max-width: 80% !important;
     height: auto !important;
   }
 }
@@ -102,6 +103,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
     overflow: scroll;
     overflow-x: hidden;
     scrollbar-width: none;
+    height: -webkit-fill-available;
 }
 
 ::-webkit-scrollbar {
