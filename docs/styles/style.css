@@ -30,9 +30,6 @@
   scrollbar-width: none;
 }
 
-.item-container-scrolled::after{
-}
-
 .item-container::after{
   content:" ";
   width:100%;
