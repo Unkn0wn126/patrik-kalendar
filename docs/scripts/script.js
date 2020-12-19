@@ -23,7 +23,7 @@ function createStandardInnerTemplate(content) {
     }
     if (content.type.includes('image')) {
         for (const part of content.images) {
-            finalString += `<a tabindex="-1" onClick="updateModal(\'${part.path}\')" data-bs-toggle="modal" data-bs-target="#myModal"><img class="img-fluid image-thumbnail" src="${part.path}" height="240"></a>`
+            finalString += `<a tabindex="-1" onClick="updateModal(\'${part.path}\', \'${part.width}\', \'${part.height}\')" data-bs-toggle="modal" data-bs-target="#myModal"><img class="img-fluid image-thumbnail" src="${part.path}" height="240"></a>`
         }
     }
 
@@ -43,10 +43,12 @@ function hideModal() {
  * Kinda hacky, but will get the job done
  * @param {string} data 
  */
-function updateModal(data) {
+function updateModal(data, width, height) {
     let modalImage = document.getElementById('modal-image');
     let modalLink = document.getElementById('modal-image-link')
     modalImage.setAttribute('src', data);
+    modalImage.width = width;
+    modalImage.height = height;
     modalLink.href = data;
 }
 

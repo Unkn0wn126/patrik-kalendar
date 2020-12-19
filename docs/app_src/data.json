@@ -29,7 +29,9 @@
         "videos": [],
         "images": [
             {
-                "path": "./app_src/img/vanoce_korenka.jpg"
+                "path": "./app_src/img/vanoce_korenka.jpg",
+                "width": "3508",
+                "height": "2480"
             }
         ],
         "author": "Johča"
@@ -102,7 +104,9 @@
         "videos": [],
         "images": [
             {
-                "path": "./app_src/img/FaktaBuster.png"
+                "path": "./app_src/img/FaktaBuster.png",
+                "width": "537",
+                "height": "673"
             }
         ],
         "author": "Prembil"
@@ -155,7 +159,9 @@
         "videos": [],
         "images": [
             {
-                "path": "./app_src/img/Patrik_kalendar.png"
+                "path": "./app_src/img/Patrik_kalendar.png",
+                "width": "1353",
+                "height": "761"
             }
         ],
         "author": "Elay"
@@ -168,7 +174,9 @@
         "videos": [],
         "images": [
             {
-                "path": "./app_src/img/praniPatrik.jpg"
+                "path": "./app_src/img/praniPatrik.jpg",
+                "width": "1353",
+                "height": "761"
             }
         ],
         "author": "Michal"
@@ -184,7 +192,9 @@
         "videos": [],
         "images": [
             {
-                "path": "./app_src/img/Patricius_Radixus_screenshot.png"
+                "path": "./app_src/img/Patricius_Radixus_screenshot.png",
+                "width": "761",
+                "height": "761"
             }
         ],
         "author": "KleaCI5"
@@ -197,7 +207,9 @@
         "videos": [],
         "images": [
             {
-                "path": "./app_src/img/hotovo_smaller.png"
+                "path": "./app_src/img/hotovo_smaller.png",
+                "width": "1231",
+                "height": "5686"
             }
         ],
         "author": "Withoutalight"
@@ -210,10 +222,14 @@
         "videos": [],
         "images": [
             {
-                "path": "./app_src/img/01-vidle.jpg"
+                "path": "./app_src/img/01-vidle.jpg",
+                "width": "1930",
+                "height": "1288"
             },
             {
-                "path": "./app_src/img/02-vidle.jpg"
+                "path": "./app_src/img/02-vidle.jpg",
+                "width": "1900",
+                "height": "1900"
             }
         ],
         "author": "TondaMikaSan"
