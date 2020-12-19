@@ -57,7 +57,6 @@ function updateModal(data, width, height) {
     modalImage.width = width;
     modalImage.height = height;
     modalLink.href = data;
-    modalLink.target = 'blank';
 }
 
 /**
