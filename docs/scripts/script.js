@@ -93,6 +93,12 @@ function assignPopover(windowId, itemData) {
         zIndex: 1040,
         inlinePositioning: true,
         onClickOutside(instance, event) {
+            let modal = document.getElementById('myModal');
+            
+            if(modal.contains(event.target)){
+                return;
+            }
+
             instance.hide();
         },
         popperOptions: {

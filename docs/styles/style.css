@@ -50,6 +50,8 @@
 
 .image-full{
   cursor: zoom-out;
+  max-width: 100%;
+  height: auto;
 }
 
 .calendar-number{
