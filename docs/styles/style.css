@@ -65,6 +65,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
   .image-full {
     max-width: 80% !important;
     height: auto !important;
+    padding-bottom: 5%;
   }
 }
 
@@ -75,6 +76,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
   .image-full {
     max-width: 80% !important;
     height: auto !important;
+    padding-bottom: 5%;
   }
 }
 
