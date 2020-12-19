@@ -4,7 +4,7 @@
  * @param {string} author 
  */
 function createStandardInnerTemplate(content) {
-    let finalString = `<div class="item-container"><div class="item-container-inner">`;
+    let finalString = `<div class="item-container" onscroll="scrolled(event)"><div class="item-container-inner">`;
     if (content.type.includes('message')) {
         for (const part of content.texts) {
             let input = part.replaceAll('\n', '<br>');
@@ -37,12 +37,21 @@ function hideModal(event) {
     let modal = bootstrap.Modal.getInstance(myModalEl) // Returns a Bootstrap modal instance
 
     let link = document.getElementById('modal-image-link');
-            
-    if(link == event.target){
+
+    if (link == event.target) {
         return;
     }
 
     modal.hide();
+}
+
+function scrolled(e) {
+    let myDiv = e.target;
+    if (myDiv.offsetHeight + myDiv.scrollTop >= myDiv.scrollHeight) {
+        myDiv.className = 'item-container-scrolled';
+    } else {
+        myDiv.className = 'item-container';
+    }
 }
 
 /**
@@ -105,12 +114,21 @@ function assignPopover(windowId, itemData) {
         inlinePositioning: true,
         onClickOutside(instance, event) {
             let modal = document.getElementById('myModal');
-            
-            if(modal.contains(event.target)){
+
+            if (modal.contains(event.target)) {
                 return;
             }
 
             instance.hide();
+        },
+        onMount(instance) {
+            let myDiv = instance.popper.lastChild.children[0].lastChild;
+
+            if (myDiv.offsetHeight + myDiv.scrollTop >= myDiv.scrollHeight) {
+                myDiv.className = 'item-container-scrolled';
+            } else {
+                myDiv.className = 'item-container';
+            }
         },
         popperOptions: {
             anchorEl: 'body',

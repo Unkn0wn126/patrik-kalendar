@@ -24,14 +24,23 @@
   padding: 5%;
 }
 
-.item-container-inner:after{
+.item-container-scrolled{
+  max-height: 50vh;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.item-container-scrolled::after{
+}
+
+.item-container::after{
   content:" ";
   width:100%;
   position:absolute;
   right:0;
   bottom:0;
-  height:6%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.288), rgb(255, 255, 255));
+  height:10%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(195, 223, 255));
   border-radius: 0 0 5px 5px;
 }
 
