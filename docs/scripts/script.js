@@ -32,9 +32,16 @@ function createStandardInnerTemplate(content) {
     return finalString;
 }
 
-function hideModal() {
+function hideModal(event) {
     let myModalEl = document.getElementById('myModal')
     let modal = bootstrap.Modal.getInstance(myModalEl) // Returns a Bootstrap modal instance
+
+    let link = document.getElementById('modal-image-link');
+            
+    if(link == event.target){
+        return;
+    }
+
     modal.hide();
 }
 
@@ -50,6 +57,7 @@ function updateModal(data, width, height) {
     modalImage.width = width;
     modalImage.height = height;
     modalLink.href = data;
+    modalLink.target = 'blank';
 }
 
 /**
