@@ -161,6 +161,7 @@ fetch("./app_src/data.json")
     .then(response => response.json())
     .then(json => {
         let itemList = json;
+        itemList.sort((a, b) => (a.rota > b.rota) ? 1 : -1); // sort them so everyone gets their correct number
 
         let div = document.getElementById("calendar-main");
         let elemCount = 0;

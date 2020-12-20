@@ -3,6 +3,7 @@
         "type": [
             "message"
         ],
+        "rota": 1,
         "texts": [
             "Patriku, koukáme s kamarádem Duškem na tvoje videa a moc se nám líbí. Pokračuj v tom, co děláš, určitě brzy dostaneš víc mediálního prostoru, stejně jako my!"
         ],
@@ -14,6 +15,7 @@
         "type": [
             "message"
         ],
+        "rota": 2,
         "texts": [
             "Neboj, Patriku, už jsme si vizualizovali všechna Fakta a podařila se ti!"
         ],
@@ -25,6 +27,7 @@
         "type": [
             "image"
         ],
+        "rota": 3,
         "texts": [],
         "videos": [],
         "images": [
@@ -40,6 +43,7 @@
         "type": [
             "message"
         ],
+        "rota": 4,
         "texts": [
             "Veselé #VánoceBudou a šťastný nový rok, ať studium nevypadá jako #JáVámJenomLžu, větší část příštího roku nebude #Zploštikřivku a Ilumináti s tebou!"
         ],
@@ -51,6 +55,7 @@
         "type": [
             "message"
         ],
+        "rota": 22,
         "texts": [
             "Oslavná píseň Patrika Kořenáře\n(na melodii Písně pro Děda Vševěda)",
             "Konspiracím nevěřit,\nzdroji všechno podpořit,\nnejen prací býti živ\na umět se uklidnit.\nTo Patrik Kořenář moc dobře ví,\nten zdroje má, ten fakta zná.",
@@ -72,6 +77,7 @@
         "type": [
             "message"
         ],
+        "rota": 5,
         "texts": [
             "Skutečně oceňuji tvůj nekončící zápal a tvé bezmezné odhodlání bojovat proti dezinformacím, ačkoliv se to často zdá beznadějné. Nechť jsou tvé čakry srovnány, tvá alobalová čepička ať odhání všechny negativní vlnky, a posílám čokoládu. Přeji veselé Vánoce, právoplatný pane fakt. A děkuji za všechno, Patriku."
         ],
@@ -83,6 +89,7 @@
         "type": [
             "message"
         ],
+        "rota": 6,
         "texts": [
             "Děkuji za hodiny plné zábavy a pouček nutných pro přežití v nehostinných podmínkách - například že zákeřné větvičky je nutno rychle postřílet, nebo že ať už se člověk ocitne v mrazivém světě po apokalypse či na úplně cizí vodní planetě, nejdůležitější je najít kafe.",
             "Děkuji za Fakta zkoumající všemožné záhady, díky kterým konečně s jistotou víme, že nic s jistotou nevíme.",
@@ -98,6 +105,7 @@
             "message",
             "image"
         ],
+        "rota": 7,
         "texts": [
             "Dlouholetý fanda Zvědátorů děkuje za každý díl."
         ],
@@ -115,9 +123,8 @@
         "type": [
             "video"
         ],
-        "texts": [
-            "Dlouholetý fanda Zvědátorů děkuje za každý díl."
-        ],
+        "rota": 8,
+        "texts": [],
         "videos": [
             {
                 "type": "local",
@@ -131,6 +138,7 @@
         "type": [
             "message"
         ],
+        "rota": 10,
         "texts": [
             "Milý Patriku, tímto Ti přeji šťastné a veselé Vánoce jménem všech elfů na Tvém Discord serveru. Obligatory díky Ti za další rok, který jsem mohla strávit se Zvědátory (veliké díky za dělání společnosti hlavně při žehlení). :P",
             "Ale ze všeho nejvíce Ti chci poděkovat za veškerou snahu a energii, které jsi věnoval objasňování fakt okolo současné pandemie. Veliký respekt za to, že sis vzal na triko jít proti tak velkému proudu dezinformací, obzvláště když proti faktům stála snad veškerá lidská hloupost, kterou tento (a další) národy oplývají. :D",
@@ -144,6 +152,7 @@
         "type": [
             "message"
         ],
+        "rota": 9,
         "texts": [
             "Děkujeme, Patriku, za zachování posledních zbytků naděje v lidstvo. Doufáme, že budeš mít chuť a možnost nám ji zachovávat dál."
         ],
@@ -155,6 +164,7 @@
         "type": [
             "image"
         ],
+        "rota": 12,
         "texts": [],
         "videos": [],
         "images": [
@@ -170,6 +180,7 @@
         "type": [
             "image"
         ],
+        "rota": 11,
         "texts": [],
         "videos": [],
         "images": [
@@ -186,6 +197,7 @@
             "message",
             "image"
         ],
+        "rota": 13,
         "texts": [
             "Patricius Radixus, který žil na přelomu letopočtu, byl zakladatel klanu bojovníků za fakta a ozdrojované informace. Jeho heslem bylo poteris factis. Potomci tohoto legendárního bojovníka za fakta dodnes pokračují v jeho odkazu a válčí z dezinformacemi. Zatím nejdále se dostal nejmladší z rodu Patrik Kořenář, který se svým pořadem Fakta vítězí úspěšně zasévá pochybnosti a paniku do řad nepřátel. Jeho předek je na něj jistě hrdý a bude nad ním držet ochrannou ruku po dlouhá léta."
         ],
@@ -203,6 +215,7 @@
         "type": [
             "image"
         ],
+        "rota": 14,
         "texts": [],
         "videos": [],
         "images": [
@@ -218,6 +231,7 @@
         "type": [
             "image"
         ],
+        "rota": 15,
         "texts": [],
         "videos": [],
         "images": [
@@ -238,6 +252,7 @@
         "type": [
             "message"
         ],
+        "rota": 16,
         "texts": [
             "Tento zvláštní rok mi přinesl nejen nový ranní rituál #Vstávám se Zvědátory. Děkuji, že izolaci doby covidové mohu trávit s Tvými streamy a skvělou komunitou, kterou kolem sebe soustředíš.\nPoskytují útočiště pro nás, nedobrovolné účastníky celospolečenské hry #Nech se zdeptat dezinformátory.",
             "Přeji Tobě i Tvým blízkým krásné svátky a do nového roku hodně sil a naději, že #Fakta vítězí!"
@@ -250,9 +265,14 @@
         "type": [
             "video"
         ],
-        "texts": [
+        "rota": 17,
+        "texts": [],
+        "videos": [
+            {
+                "type": "url",
+                "path": "https://www.youtube.com/embed/7i1TmZy4TQI"
+            }
         ],
-        "videos": [{"type": "url", "path": "https://www.youtube.com/embed/7i1TmZy4TQI"}],
         "images": [],
         "author": "Kortan"
     },
@@ -260,10 +280,16 @@
         "type": [
             "image"
         ],
-        "texts": [
-        ],
+        "rota": 18,
+        "texts": [],
         "videos": [],
-        "images": [{"path": "./app_src/img/trine.png", "width": "679", "height": "692"}],
+        "images": [
+            {
+                "path": "./app_src/img/trine.png",
+                "width": "679",
+                "height": "692"
+            }
+        ],
         "author": "Dragonarr"
     }
 ]
