@@ -17,7 +17,7 @@ function createStandardInnerTemplate(content) {
                 finalString += `<video class="img-fluid" controls> <source src="${part.path}"> </video>`
             }
             else if (part.type == 'url') {
-                finalString += ` <iframe class="img-fluid" src="${part.path}" title="description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> `
+                finalString += ` <iframe class="img-fluid" src="${part.path}" frameborder="0" allowfullscreen> </iframe>`
             }
         }
     }

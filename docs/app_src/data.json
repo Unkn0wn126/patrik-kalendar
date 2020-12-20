@@ -245,5 +245,35 @@
         "videos": [],
         "images": [],
         "author": "adela_uz_vecerela"
+    },
+    {
+        "type": [
+            "video"
+        ],
+        "texts": [
+        ],
+        "videos": [{"type": "url", "path": "https://www.youtube.com/embed/7i1TmZy4TQI"}],
+        "images": [],
+        "author": "Kortan"
+    },
+    {
+        "type": [
+            "video"
+        ],
+        "texts": [
+        ],
+        "videos": [{"type": "url", "path": "https://www.youtube.com/embed/7i1TmZy4TQI"}],
+        "images": [],
+        "author": "Kortan"
+    },
+    {
+        "type": [
+            "image"
+        ],
+        "texts": [
+        ],
+        "videos": [],
+        "images": [{"path": "./app_src/img/trine.png", "width": "679", "height": "692"}],
+        "author": "Dragonarr"
     }
 ]

@@ -115,7 +115,7 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
     font-family: 'Roboto Slab', serif;
   }
 
-  body:before {
+  body::after {
     content: "";
     display: block;
     position: fixed;
