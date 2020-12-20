@@ -258,16 +258,6 @@
     },
     {
         "type": [
-            "video"
-        ],
-        "texts": [
-        ],
-        "videos": [{"type": "url", "path": "https://www.youtube.com/embed/7i1TmZy4TQI"}],
-        "images": [],
-        "author": "Kortan"
-    },
-    {
-        "type": [
             "image"
         ],
         "texts": [
