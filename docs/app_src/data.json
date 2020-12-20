@@ -308,5 +308,54 @@
             }
         ],
         "author": "z c"
+    },
+    {
+        "type": [
+            "message"
+        ],
+        "rota": 30,
+        "texts": [
+            "Když nemůžou odměny k&nbsp;subům, musí adventní kalendář k&nbsp;Patrikovi!",
+            "Začalo to snahou dostat do hlavy zábavnou cestou nějaký vědomosti, a&nbsp;skončilo to u&nbsp;kolektivu virtuálních přátel z&nbsp;Discordu, co mě nutí dívat se na seznamovací webináře, kreslit vánočky a&nbsp;vařit krupicovou kaši. Trávení nekonečnýho nouzovýho stavu doma nikdy nebylo příjemnější!\nDíky :)",
+            "P.S. Díky Unknownovi za jeho programátorské superschopnosti, Roigenovi za tajnou discordovou magii a&nbsp;vůbec všem, kteří maximálně zmobilizovali svoji kreativitu, aby mi během jednoho týdne pomohli dát dohromady tenhle kalendář! Už aby nám dali na starost i&nbsp;ten pandemický plán…"
+        ],
+        "videos": [],
+        "images": [],
+        "author": "Severka"
+    },
+    {
+        "type": [
+            "message",
+            "image"
+        ],
+        "rota": 19,
+        "texts": [
+            "Ještě od Kakarinky k&nbsp;obrázku: Patriku, přejeme Ti krásné Vánoce! Odpočiň si, raduj se, jásej! Mámě Tě rádi. Kakarinka se svou rodinou, pokrevní i&nbsp;nepokrevní ❤️"
+        ],
+        "videos": [],
+        "images": [
+            {
+                "path": "./app_src/img/fin.jpg",
+                "width": "3646",
+                "height": "2734"
+            }
+        ],
+        "author": "Kakarinka"
+    },
+    {
+        "type": [
+            "image"
+        ],
+        "rota": 19,
+        "texts": [],
+        "videos": [],
+        "images": [
+            {
+                "path": "./app_src/img/Bez_jmena_1.jpg",
+                "width": "3480",
+                "height": "1958"
+            }
+        ],
+        "author": "Rojdžen"
     }
 ]
