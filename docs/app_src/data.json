@@ -291,5 +291,21 @@
             }
         ],
         "author": "Dragonarr"
+    },
+    {
+        "type": [
+            "image"
+        ],
+        "rota": 19,
+        "texts": [],
+        "videos": [],
+        "images": [
+            {
+                "path": "./app_src/img/patrik.jpg",
+                "width": "1200",
+                "height": "1600"
+            }
+        ],
+        "author": "z c"
     }
 ]
