@@ -19,18 +19,17 @@
     <div id="myModal" class="modal fade" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" onclick="hideModal(event)">
             <div class="modal-content" style="background-color: rgba(255, 255, 255, 0);">
-                    <img id="modal-image" class="image-full" src="">
-                    <a id="modal-image-link" href="" target="blank">Zobrazit obrázek v původní velikosti</a>
+                <img id="modal-image" class="image-full" src="">
+                <a id="modal-image-link" href="" target="blank">Zobrazit obrázek v původní velikosti</a>
             </div>
         </div>
     </div>
 
-    <div class="container-xl">
-        <div id="calendar-main" class="container-xl main-container">
-            <div class="row row-cols-12 justify-content-md-center align-middle">
-            </div>
+    <div class="container-xl main-container d-flex align-items-center align-self-start">
+        <div id="calendar-main" class="container-xl d-flex align-items-center justify-content-evenly">
         </div>
     </div>
+
 
     <!-- Production -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -41,6 +40,7 @@
         crossorigin="anonymous"></script>
 
     <script src="./scripts/script.js"></script>
+    <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
 </body>
 
 </html>

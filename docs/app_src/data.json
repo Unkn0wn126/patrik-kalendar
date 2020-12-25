@@ -17,8 +17,8 @@
             "message"
         ],
         "rota": 2,
-        "texts": [
-            "Neboj, Patriku, už jsme si vizualizovali všechna Fakta a&nbsp;podařila se ti!"
+        "texts": ["Většinu času co se pohybuji na YouTube a&nbsp;Twitchi se považuji za tichého diváka, ale to se změnilo u&nbsp;Tvých streamů. Když začala karanténa a&nbsp;já zjistila, že i&nbsp;stremuješ, (Zvědátory už sleduji dlouhou dobu) tak mě to donutilo si ten Twitch založit, avšak tím to neskončilo. Po Twitchi přišel Discord, kde jsem se po několika měsících něco odvážila napsat a&nbsp;teď je to zdroj zhoršování mého denního režimu, vyprazdňování moji peněženky, ale také místo, kde se i&nbsp;socializuji a&nbsp;sleduji webináře.\nDíky tobě jsem měla s&nbsp;kým si ulevit během toho zmatku, co se teď děje, pobavit se v&nbsp;době, kdy mi nebylo nejlépe, a&nbsp;potkala super lidi, kvůli kterým dokonce i&nbsp;hodinu denně vymýšlím cviky. Už zdaleka nejsem ten tichý divák, ba naopak už dostávám i&nbsp;bany na FB. Za to všechno a&nbsp;ještě mnohem více Ti děkuji.",
+            "P. S. A&nbsp;neboj, už jsme si vizualizovali všechna Fakta a&nbsp;podařila se ti!"
         ],
         "videos": [],
         "images": [],
@@ -266,7 +266,7 @@
         "type": [
             "video"
         ],
-        "rota": 23,
+        "rota": 29,
         "texts": [],
         "videos": [
             {
@@ -344,18 +344,20 @@
     },
     {
         "type": [
-            "image"
+            "message",
+            "video"
         ],
-        "rota": 20,
-        "texts": [],
-        "videos": [],
-        "images": [
+        "rota": 21,
+        "texts": ["Na streamu pozor! Je to not DMCA free"],
+        "videos": [
             {
-                "path": "./app_src/img/Bez_jmena_1.jpg",
-                "width": "3480",
-                "height": "1958"
+                "path": "<blockquote class=\"reddit-card\" data-card-created=\"1608916136\"><a href=\"https://www.reddit.com/r/Ne__Ty/comments/kk26ru/super_secret_video/\">Super secret video</a> from <a href=\"http://www.reddit.com/r/Ne__Ty\">r/Ne__Ty</a></blockquote>",
+                "type": "reddit-url"
             }
         ],
-        "author": "Roigen"
+        "images": [
+            {}
+        ],
+        "author": "TriangleDeveloper"
     }
 ]

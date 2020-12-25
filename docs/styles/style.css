@@ -12,6 +12,8 @@
                                   supported by Chrome, Edge, Opera and Firefox */
     cursor: pointer;
     border-radius: 5px;
+    max-width: 7rem;
+    max-height: 7rem;
 }
 
 .item-container{
@@ -102,7 +104,8 @@ a#modal-image-link:link, a#modal-image-link:visited, a#modal-image-link:active, 
 }
 
 .main-container{
-  padding-top: 10vh;
+  margin-top: 9vh;
+  min-height: 90vh;
 }
 
   body{

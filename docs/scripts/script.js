@@ -19,6 +19,9 @@ function createStandardInnerTemplate(content) {
             else if (part.type == 'url') {
                 finalString += ` <iframe class="img-fluid" src="${part.path}" frameborder="0" allowfullscreen> </iframe>`
             }
+            else if (part.type == 'reddit-url') {
+                finalString += ` ${part.path}`
+            }
         }
     }
     if (content.type.includes('image')) {
@@ -83,10 +86,10 @@ function assignPopover(windowId, itemData) {
                 return [50, - 70];
             }
             else if (placement === 'top-end') {
-                return [-30, -1 * (popper.height) - (50)];
+                return [-50, -70];
             }
             else if (placement === 'bottom-end') {
-                return [-30, -70];
+                return [-50, -70];
             }
             else if (placement === 'bottom-start') {
                 return [50, -70];
@@ -137,7 +140,7 @@ function assignPopover(windowId, itemData) {
                 {
                     name: 'flip',
                     options: {
-                        fallbackPlacements: ['bottom-end', 'top-start', 'top-end', 'right-start', 'left-start'],
+                        fallbackPlacements: ['top-start', 'bottom-end', 'top-end', 'right-start', 'left-start'],
                     },
                 },
                 {
@@ -166,10 +169,15 @@ fetch("./app_src/data.json")
         let div = document.getElementById("calendar-main");
         let elemCount = 0;
         let currRow = document.createElement("div");
-        currRow.classList.add("row", "row-cols-12", "justify-content-md-center", "align-middle");
+        currRow.classList.add("row", "justify-content-evenly", "align-items-stretch");
         div.appendChild(currRow);
 
         for (const item of itemList) {
+            if(elemCount % 6 === 0){
+                let rowBreak = document.createElement("div");
+                rowBreak.classList.add("w-100", "d-none", "d-lg-block");
+                currRow.appendChild(rowBreak);
+            }
             elemCount++;
             let currId = `item-${elemCount}`;
 
@@ -192,7 +200,7 @@ fetch("./app_src/data.json")
  */
 function createWindowNode(title, id) {
     let element = document.createElement("div");
-    element.classList.add("col", "text-left", "p-5", "m-5", "ratio", "ratio-1x1", "calendar_window");
+    element.classList.add("col", "text-left", "p-5", "m-4" , "ratio", "ratio-1x1", "calendar_window");
     element.id = id;
     titleElement = document.createElement("p");
     titleElement.innerHTML = title;
