@@ -286,6 +286,22 @@
         "videos": [],
         "images": [
             {
+                "path": "./app_src/img/Patrik_ilu.jpg",
+                "width": "1719",
+                "height": "3741"
+            }
+        ],
+        "author": "Iluminátor & Horty"
+    },
+    {
+        "type": [
+            "image"
+        ],
+        "rota": 18,
+        "texts": [],
+        "videos": [],
+        "images": [
+            {
                 "path": "./app_src/img/trine_pozadi.png",
                 "width": "679",
                 "height": "692"
@@ -297,7 +313,7 @@
         "type": [
             "image"
         ],
-        "rota": 18,
+        "rota": 19,
         "texts": [],
         "videos": [],
         "images": [
@@ -328,7 +344,7 @@
             "message",
             "image"
         ],
-        "rota": 19,
+        "rota": 20,
         "texts": [
             "Ještě od Kakarinky k&nbsp;obrázku: Patriku, přejeme Ti krásné Vánoce! Odpočiň si, raduj se, jásej! Mámě Tě rádi. Kakarinka se svou rodinou, pokrevní i&nbsp;nepokrevní ❤️"
         ],
