@@ -19,9 +19,6 @@ function createStandardInnerTemplate(content) {
             else if (part.type == 'url') {
                 finalString += ` <iframe class="img-fluid" src="${part.path}" frameborder="0" allowfullscreen> </iframe>`
             }
-            else if (part.type == 'reddit-url') {
-                finalString += ` ${part.path}`
-            }
         }
     }
     if (content.type.includes('image')) {

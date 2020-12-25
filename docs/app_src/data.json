@@ -351,8 +351,8 @@
         "texts": ["Na streamu pozor! Je to not DMCA free"],
         "videos": [
             {
-                "path": "<blockquote class=\"reddit-card\" data-card-created=\"1608916136\"><a href=\"https://www.reddit.com/r/Ne__Ty/comments/kk26ru/super_secret_video/\">Super secret video</a> from <a href=\"http://www.reddit.com/r/Ne__Ty\">r/Ne__Ty</a></blockquote>",
-                "type": "reddit-url"
+                "path": "https://odysee.com/$/embed/final_w_audio/9af9bde523ce0cc09dc22ac48400f16fdca19a50?r=DYy9ihZwQ7qkrUzas4QkeMZ63XRsRaX4",
+                "type": "url"
             }
         ],
         "images": [
