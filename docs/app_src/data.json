@@ -346,7 +346,7 @@
         ],
         "rota": 20,
         "texts": [
-            "Ještě od Kakarinky k&nbsp;obrázku: Patriku, přejeme Ti krásné Vánoce! Odpočiň si, raduj se, jásej! Mámě Tě rádi. Kakarinka se svou rodinou, pokrevní i&nbsp;nepokrevní ❤️"
+            "Patriku, přejeme Ti krásné Vánoce! Odpočiň si, raduj se, jásej! Mámě Tě rádi. Kakarinka se svou rodinou, pokrevní i&nbsp;nepokrevní ❤️"
         ],
         "videos": [],
         "images": [
@@ -375,5 +375,22 @@
             {}
         ],
         "author": "TriangleDeveloper"
+    },
+    {
+        "type": [
+            "video"
+        ],
+        "rota": 23,
+        "texts": [],
+        "videos": [
+            {
+                "path": "./app_src/vid/finale_bez_roie.mp4",
+                "type": "local"
+            }
+        ],
+        "images": [
+            {}
+        ],
+        "author": "Ne_Ty, InsumNika"
     }
 ]
