@@ -17,7 +17,8 @@
             "message"
         ],
         "rota": 2,
-        "texts": ["Většinu času co se pohybuji na YouTube a&nbsp;Twitchi se považuji za tichého diváka, ale to se změnilo u&nbsp;Tvých streamů. Když začala karanténa a&nbsp;já zjistila, že i&nbsp;stremuješ, (Zvědátory už sleduji dlouhou dobu) tak mě to donutilo si ten Twitch založit, avšak tím to neskončilo. Po Twitchi přišel Discord, kde jsem se po několika měsících něco odvážila napsat a&nbsp;teď je to zdroj zhoršování mého denního režimu, vyprazdňování moji peněženky, ale také místo, kde se i&nbsp;socializuji a&nbsp;sleduji webináře.\nDíky tobě jsem měla s&nbsp;kým si ulevit během toho zmatku, co se teď děje, pobavit se v&nbsp;době, kdy mi nebylo nejlépe, a&nbsp;potkala super lidi, kvůli kterým dokonce i&nbsp;hodinu denně vymýšlím cviky. Už zdaleka nejsem ten tichý divák, ba naopak už dostávám i&nbsp;bany na FB. Za to všechno a&nbsp;ještě mnohem více Ti děkuji.",
+        "texts": [
+            "Většinu času co se pohybuji na YouTube a&nbsp;Twitchi se považuji za tichého diváka, ale to se změnilo u&nbsp;Tvých streamů. Když začala karanténa a&nbsp;já zjistila, že i&nbsp;stremuješ, (Zvědátory už sleduji dlouhou dobu) tak mě to donutilo si ten Twitch založit, avšak tím to neskončilo. Po Twitchi přišel Discord, kde jsem se po několika měsících něco odvážila napsat a&nbsp;teď je to zdroj zhoršování mého denního režimu, vyprazdňování moji peněženky, ale také místo, kde se i&nbsp;socializuji a&nbsp;sleduji webináře.\nDíky tobě jsem měla s&nbsp;kým si ulevit během toho zmatku, co se teď děje, pobavit se v&nbsp;době, kdy mi nebylo nejlépe, a&nbsp;potkala super lidi, kvůli kterým dokonce i&nbsp;hodinu denně vymýšlím cviky. Už zdaleka nejsem ten tichý divák, ba naopak už dostávám i&nbsp;bany na FB. Za to všechno a&nbsp;ještě mnohem více Ti děkuji.",
             "P. S. A&nbsp;neboj, už jsme si vizualizovali všechna Fakta a&nbsp;podařila se ti!"
         ],
         "videos": [],
@@ -364,16 +365,16 @@
             "video"
         ],
         "rota": 21,
-        "texts": ["Na streamu pozor! Je to not DMCA free"],
+        "texts": [
+            "Na streamu pozor! Je to not DMCA free"
+        ],
         "videos": [
             {
                 "path": "https://odysee.com/$/embed/final_w_audio/9af9bde523ce0cc09dc22ac48400f16fdca19a50?r=DYy9ihZwQ7qkrUzas4QkeMZ63XRsRaX4",
                 "type": "url"
             }
         ],
-        "images": [
-            {}
-        ],
+        "images": [],
         "author": "TriangleDeveloper"
     },
     {
@@ -388,9 +389,17 @@
                 "type": "local"
             }
         ],
-        "images": [
-            {}
-        ],
+        "images": [],
         "author": "Roigen, Bublinatka, Terri Fox, insumNika, Ne_Ty"
+    },
+    {
+        "type": [
+            "message"
+        ],
+        "rota": 24,
+        "texts": ["Díky za jasný maják zdravého rozumu v&nbsp;husté mlze dezinformací, která je obzvlášť letos dost silná. Pokračuj v&nbsp;tom co děláš, svět tě rozhodně potřebuje! :)", "Dále chci poděkovat Severce za skvělý nápad, její organizační schopnosti a&nbsp;v&nbsp;neposlední řadě za to, že byla v&nbsp;této věci tak skvělá šéfová :)", "Všem pak děkuji za super příspěvky do tohoto kalendáře a&nbsp;všechny konverzace na Discordu bez kterých by byl letošní rok podstatně horší :D", "P.S. Pořadí okének se tady řídí hodnotou \"rota\", to mi ostatní dosvědčí :D", "P.P.S Jestli se teď něco rozbilo, ještě včera to fungovalo normálně :D"],
+        "videos": [],
+        "images": [],
+        "author": "Unkn0wn12"
     }
 ]
