@@ -170,7 +170,7 @@ fetch("./app_src/data.json")
         div.appendChild(currRow);
 
         for (const item of itemList) {
-            if(elemCount % 6 === 0){
+            if(elemCount % 7 === 0){
                 let rowBreak = document.createElement("div");
                 rowBreak.classList.add("w-100", "d-none", "d-lg-block");
                 currRow.appendChild(rowBreak);

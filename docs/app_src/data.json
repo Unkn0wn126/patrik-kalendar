@@ -390,7 +390,7 @@
             }
         ],
         "images": [],
-        "author": "Roigen, Bublinatka, Terri Fox, insumNika, Ne_Ty"
+        "author": "Roigen, Bublinatka, Terri Fox, insumNika, Ne__Ty"
     },
     {
         "type": [
@@ -401,5 +401,25 @@
         "videos": [],
         "images": [],
         "author": "Unkn0wn12"
+    },
+    {
+        "type": [
+            "message"
+        ],
+        "rota": 26,
+        "texts": ["Ahoj Patriku, chtěl bych ti poděkovat za tvoje a&nbsp;vaše společné streamy a&nbsp;pořady s&nbsp;Martinem Rotou. Tobě držím palce, ať uspěješ s&nbsp;titulem magistr. Hodně štěstí a&nbsp;úspěchů do tvé a&nbsp;vaší společné práce, která u&nbsp;mne vždy zanechá opojení z&nbsp;nových informací. Když čtu, tak čtu, a&nbsp;když nečtu, tak přemýšlím o&nbsp;tom, co jsem kdy četl...\nVáš věrný divák"],
+        "videos": [],
+        "images": [],
+        "author": "TotalGamerMagor"
+    },
+    {
+        "type": [
+            "image"
+        ],
+        "rota": 27,
+        "texts": [],
+        "videos": [],
+        "images": [{"path": "./app_src/img/PatriccTerminator.gif", "width": "800", "height": "450"}],
+        "author": "Prembil"
     }
 ]
