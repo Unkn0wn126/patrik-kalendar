@@ -3,7 +3,7 @@
         "type": [
             "message"
         ],
-        "rota": 1,
+        "rota": 2,
         "texts": [
             "Patriku, koukáme s&nbsp;kamarádem Duškem na tvoje videa a&nbsp;moc se nám líbí. Pokračuj v&nbsp;tom, co děláš, určitě brzy dostaneš víc mediálního prostoru, stejně jako my!\n<div style=\"text-align:right; font-weight: bold; padding: 3%\">prof. Jan Rak</div>",
             "P.S. Na Zvědátory a&nbsp;Fakta koukám už od začátku. Za tu dobu se u&nbsp;obou pořadů kvalita značně posunula směrem nahoru, a&nbsp;to hlavně u&nbsp;Fakt. Ohromně si cením těch posledních informačních videí o&nbsp;covidu, ale i&nbsp;tak mám stále nejradši Fakta o&nbsp;Djatlovovi."
@@ -16,7 +16,7 @@
         "type": [
             "message"
         ],
-        "rota": 2,
+        "rota": 3,
         "texts": [
             "Většinu času co se pohybuji na YouTube a&nbsp;Twitchi se považuji za tichého diváka, ale to se změnilo u&nbsp;Tvých streamů. Když začala karanténa a&nbsp;já zjistila, že i&nbsp;stremuješ, (Zvědátory už sleduji dlouhou dobu) tak mě to donutilo si ten Twitch založit, avšak tím to neskončilo. Po Twitchi přišel Discord, kde jsem se po několika měsících něco odvážila napsat a&nbsp;teď je to zdroj zhoršování mého denního režimu, vyprazdňování moji peněženky, ale také místo, kde se i&nbsp;socializuji a&nbsp;sleduji webináře.\nDíky tobě jsem měla s&nbsp;kým si ulevit během toho zmatku, co se teď děje, pobavit se v&nbsp;době, kdy mi nebylo nejlépe, a&nbsp;potkala super lidi, kvůli kterým dokonce i&nbsp;hodinu denně vymýšlím cviky. Už zdaleka nejsem ten tichý divák, ba naopak už dostávám i&nbsp;bany na FB. Za to všechno a&nbsp;ještě mnohem více Ti děkuji.",
             "P. S. A&nbsp;neboj, už jsme si vizualizovali všechna Fakta a&nbsp;podařila se ti!"
@@ -29,7 +29,7 @@
         "type": [
             "image"
         ],
-        "rota": 3,
+        "rota": 4,
         "texts": [],
         "videos": [],
         "images": [
@@ -45,7 +45,7 @@
         "type": [
             "message"
         ],
-        "rota": 4,
+        "rota": 5,
         "texts": [
             "Veselé #VánoceBudou a&nbsp;šťastný nový rok, ať studium nevypadá jako #JáVámJenomLžu, větší část příštího roku nebude #Zploštikřivku a&nbsp;Ilumináti s&nbsp;tebou!"
         ],
@@ -79,7 +79,7 @@
         "type": [
             "message"
         ],
-        "rota": 5,
+        "rota": 6,
         "texts": [
             "Skutečně oceňuji tvůj nekončící zápal a&nbsp;tvé bezmezné odhodlání bojovat proti dezinformacím, ačkoliv se to často zdá beznadějné. Nechť jsou tvé čakry srovnány, tvá alobalová čepička ať odhání všechny negativní vlnky, a&nbsp;posílám čokoládu. Přeji veselé Vánoce, právoplatný pane fakt. A&nbsp;děkuji za všechno, Patriku."
         ],
@@ -91,7 +91,7 @@
         "type": [
             "message"
         ],
-        "rota": 6,
+        "rota": 7,
         "texts": [
             "Děkuji za hodiny plné zábavy a&nbsp;pouček nutných pro přežití v&nbsp;nehostinných podmínkách - například že zákeřné větvičky je nutno rychle postřílet, nebo že ať už se člověk ocitne v&nbsp;mrazivém světě po apokalypse či na úplně cizí vodní planetě, nejdůležitější je najít kafe.",
             "Děkuji za Fakta zkoumající všemožné záhady, díky kterým konečně s&nbsp;jistotou víme, že nic s&nbsp;jistotou nevíme.",
@@ -107,7 +107,7 @@
             "message",
             "image"
         ],
-        "rota": 7,
+        "rota": 8,
         "texts": [
             "Dlouholetý fanda Zvědátorů děkuje za každý díl."
         ],
@@ -125,7 +125,7 @@
         "type": [
             "video"
         ],
-        "rota": 8,
+        "rota": 9,
         "texts": [],
         "videos": [
             {
@@ -154,7 +154,7 @@
         "type": [
             "message"
         ],
-        "rota": 9,
+        "rota": 11,
         "texts": [
             "Děkujeme, Patriku, za zachování posledních zbytků naděje v&nbsp;lidstvo. Doufáme, že budeš mít chuť a&nbsp;možnost nám ji zachovávat dál."
         ],
@@ -182,7 +182,7 @@
         "type": [
             "image"
         ],
-        "rota": 11,
+        "rota": 13,
         "texts": [],
         "videos": [],
         "images": [
@@ -199,7 +199,7 @@
             "message",
             "image"
         ],
-        "rota": 13,
+        "rota": 14,
         "texts": [
             "Patricius Radixus, který žil na přelomu letopočtu, byl zakladatel klanu bojovníků za fakta a&nbsp;ozdrojované informace. Jeho heslem bylo poteris factis. Potomci tohoto legendárního bojovníka za fakta dodnes pokračují v&nbsp;jeho odkazu a&nbsp;válčí z&nbsp;dezinformacemi. Zatím nejdále se dostal nejmladší z&nbsp;rodu Patrik Kořenář, který se svým pořadem Fakta vítězí úspěšně zasévá pochybnosti a&nbsp;paniku do řad nepřátel. Jeho předek je na něj jistě hrdý a&nbsp;bude nad ním držet ochrannou ruku po dlouhá léta."
         ],
@@ -217,7 +217,7 @@
         "type": [
             "image"
         ],
-        "rota": 14,
+        "rota": 15,
         "texts": [],
         "videos": [],
         "images": [
@@ -233,7 +233,7 @@
         "type": [
             "image"
         ],
-        "rota": 15,
+        "rota": 16,
         "texts": [],
         "videos": [],
         "images": [
@@ -254,7 +254,7 @@
         "type": [
             "message"
         ],
-        "rota": 16,
+        "rota": 17,
         "texts": [
             "Tento zvláštní rok mi přinesl nejen nový ranní rituál #Vstávám se Zvědátory. Děkuji, že izolaci doby covidové mohu trávit s&nbsp;Tvými streamy a&nbsp;skvělou komunitou, kterou kolem sebe soustředíš.\nPoskytují útočiště pro nás, nedobrovolné účastníky celospolečenské hry #Nech se zdeptat dezinformátory.",
             "Přeji Tobě i&nbsp;Tvým blízkým krásné svátky a&nbsp;do nového roku hodně sil a&nbsp;naději, že #Fakta vítězí!"
@@ -282,7 +282,7 @@
         "type": [
             "image"
         ],
-        "rota": 17,
+        "rota": 18,
         "texts": [],
         "videos": [],
         "images": [
@@ -298,7 +298,7 @@
         "type": [
             "image"
         ],
-        "rota": 18,
+        "rota": 19,
         "texts": [],
         "videos": [],
         "images": [
@@ -314,7 +314,7 @@
         "type": [
             "image"
         ],
-        "rota": 19,
+        "rota": 20,
         "texts": [],
         "videos": [],
         "images": [
@@ -330,7 +330,7 @@
         "type": [
             "message"
         ],
-        "rota": 0,
+        "rota": 1,
         "texts": [
             "Když nemůžou odměny k&nbsp;subům, musí adventní kalendář k&nbsp;Patrikovi!",
             "Začalo to snahou dostat do hlavy zábavnou cestou nějaký vědomosti, a&nbsp;skončilo to u&nbsp;kolektivu virtuálních přátel z&nbsp;Discordu, co mě nutí dívat se na seznamovací webináře, kreslit vánočky a&nbsp;vařit krupicovou kaši. Trávení nekonečnýho nouzovýho stavu doma nikdy nebylo příjemnější!\nDíky :)",
@@ -345,7 +345,7 @@
             "message",
             "image"
         ],
-        "rota": 20,
+        "rota": 21,
         "texts": [
             "Patriku, přejeme Ti krásné Vánoce! Odpočiň si, raduj se, jásej! Mámě Tě rádi. Kakarinka se svou rodinou, pokrevní i&nbsp;nepokrevní ❤️"
         ],
@@ -364,7 +364,7 @@
             "message",
             "video"
         ],
-        "rota": 21,
+        "rota": 23,
         "texts": [
             "Na streamu pozor! Je to not DMCA free"
         ],
@@ -381,7 +381,7 @@
         "type": [
             "video"
         ],
-        "rota": 23,
+        "rota": 24,
         "texts": [],
         "videos": [
             {
@@ -396,7 +396,7 @@
         "type": [
             "message"
         ],
-        "rota": 24,
+        "rota": 25,
         "texts": ["Díky za jasný maják zdravého rozumu v&nbsp;husté mlze dezinformací, která je obzvlášť letos dost silná. Pokračuj v&nbsp;tom co děláš, svět tě rozhodně potřebuje! :)", "Dále chci poděkovat Severce za skvělý nápad, její organizační schopnosti a&nbsp;v&nbsp;neposlední řadě za to, že byla v&nbsp;této věci tak skvělá šéfová :)", "Všem pak děkuji za super příspěvky do tohoto kalendáře a&nbsp;všechny konverzace na Discordu bez kterých by byl letošní rok podstatně horší :D", "P.S. Pořadí okének se tady řídí hodnotou \"rota\", to mi ostatní dosvědčí :D", "P.P.S Jestli se teď něco rozbilo, ještě včera to fungovalo normálně :D"],
         "videos": [],
         "images": [],
