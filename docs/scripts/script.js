@@ -101,7 +101,7 @@ function assignPopover(windowId, itemData) {
                 return [];
             }
         },
-        placement: 'top-start',
+        placement: 'right-start',
         allowHTML: true,
         hideOnClick: 'toggle',
         interactive: true,
@@ -137,7 +137,7 @@ function assignPopover(windowId, itemData) {
                 {
                     name: 'flip',
                     options: {
-                        fallbackPlacements: ['bottom-start', 'bottom-end', 'top-end', 'right-start', 'left-start'],
+                        fallbackPlacements: ['left-start', 'bottom-start', 'bottom-end', 'top-start', 'top-end'],
                     },
                 },
                 {
