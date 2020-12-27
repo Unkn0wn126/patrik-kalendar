@@ -414,12 +414,12 @@
     },
     {
         "type": [
-            "image"
+            "message", "image"
         ],
         "rota": 27,
-        "texts": [],
+        "texts": ["Medvěd, Zajíc, Beran, Pštros, Kůň, Husa, Jelen, Šungit. Co z toho Patrik nesní?"],
         "videos": [],
-        "images": [{"path": "./app_src/img/PatriccTerminator.gif", "width": "800", "height": "450"}],
-        "author": "Prembil"
+        "images": [{"path": "./app_src/img/img001.jpg", "width": "1600", "height": "1200"}],
+        "author": "Petr Petrovič"
     }
 ]
