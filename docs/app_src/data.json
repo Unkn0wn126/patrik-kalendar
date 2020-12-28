@@ -27,10 +27,10 @@
     },
     {
         "type": [
-            "image"
+            "message", "image"
         ],
         "rota": 2,
-        "texts": [],
+        "texts": ["Nebudu to nějak protahovat, od toho jsou tady jiní… Veselé Vánoce a doufám, že ti můj malý dárek udělá radost. #FaktaVítězí a #VšechnoBude"],
         "videos": [],
         "images": [
             {
