@@ -379,10 +379,10 @@
     },
     {
         "type": [
-            "video"
+            "message", "video"
         ],
         "rota": 24,
-        "texts": [],
+        "texts": ["Pozor, potenciální DMCA"],
         "videos": [
             {
                 "path": "./app_src/vid/final_updated_sound.mp4",
